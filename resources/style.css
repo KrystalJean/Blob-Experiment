@@ -1,0 +1,214 @@
+body {
+    display: grid;
+    width: 900px;
+    height: 3000px;
+    margin: auto;
+    grid-template: repeat(30, 1fr) / repeat(12, 1fr);
+  }
+  
+  /* set 1: repurposed living */
+  #xlBlobContainer {
+    grid-area: 1 / 3 / 5 / 13;
+  }
+  
+  #innerXLBlob {
+    grid-area: 1 / 3 / 5 / 13;
+  }
+  
+  #mediumBlobContainer {
+    grid-area: 3 / 1 / 5 / 4; 
+  }
+  
+  /* set 2: angles */
+  
+  .d {
+    grid-area: 5 / 1 / 12 / 7;
+  }
+  
+  .e {
+    grid-area: 7 / 6 / 10 / 10;
+  }
+  
+  .f {
+    grid-area: 6 / 2 / 8 / 6;
+  }
+  
+  /* set 3: pattern play */
+  
+  .g {
+    grid-area: 11 / 3 / 16 / 13;
+  
+  }
+  
+  .h {
+    grid-area: 13 / 1 / 14 / 5;
+  }
+  
+  .i {
+    grid-area: 14 / 1 / 15 / 6;
+  }
+  
+  /* set 4: healing house */
+  
+  .j {
+    grid-area: 15 / 1/ 22 / 7;
+  }
+  
+  .k {
+    grid-area: 17 / 7 / 19 / 10;
+  }
+  
+  .l {
+    grid-area: 18 / 7 / 21 / 9;
+  }
+  
+  /* set 5: curved perfection */
+  
+  .m {
+    grid-area: 21 / 3 / 27 / 13;
+  }
+  
+  .n {
+    
+    grid-area: 23 / 1 / 26 / 4;
+  }
+  
+  .o {
+    grid-area: 22 / 1 / 24 / 6;
+  }
+  
+  .headLine {
+    margin-top: 5vh;
+    height: 20vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 120%;
+    margin-bottom: 10vh;
+  }
+  
+  .box {
+    font-family: 'Roboto Slab', serif;
+    font-size: 90%;
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 180%;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+  }
+  
+  /* media queries */ 
+  
+  @media (min-width: 1150px) {
+    #app {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .grid {
+  
+    }
+    
+    .title {
+      width: 65%;
+      font-size: 120%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: azure;
+}
+.blob-images {
+
+    
+}
+
+.innerBlobInfo {
+    z-index: -1;
+}
+
+
+
+
+/* XL-INDIGO BLOB STYLE*/
+
+
+#xlBlobContainer {
+    width: 25%;
+    height: auto;
+    border: blue solid 3px;
+}
+#xl-blob-img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    
+    z-index: -2;
+    
+}
+
+
+
+/* LARGE-GREEN BLOB STYLE*/
+
+#largeBlobContainer {
+    width: 25%;
+    height: auto;
+    border: green solid 3px;
+}
+
+#large-blob-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    
+    z-index: -3;
+}
+
+/* MEDIUM-PINK BLOB STYLE*/
+#mediumBlobContainer {
+    width: 25%;
+    height: auto;
+    border: hotpink solid 3px;
+}
+
+#medium-blob-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    
+    z-index: -4;
+}
+
+/* SMALL-GOLD BLOB STYLE*/
+#smallBlobContainer {
+    width: 25%;
+    height: auto;
+    border: orangered solid 3px;
+}
+
+#small-blob-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+   
+    z-index: -5;
+}
